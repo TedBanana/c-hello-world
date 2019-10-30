@@ -1,5 +1,12 @@
-main()
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
 {
-  printf("hello, world\n");
+  int a=12, b=8;
+  printf("sum=%d\n", a+b);
+  printf("hello, world~ Ted\n");
+  
+  return(0);
 }
 
