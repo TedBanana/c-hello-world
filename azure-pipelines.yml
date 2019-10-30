@@ -13,7 +13,6 @@ steps:
 #- script: |
 #    make
 #  displayName: './build.sh'
-- task: SSH@0
+- task: CmdLine@2
   inputs:
-    runOptions: 'commands'
-    commands: './build.sh'
+    script: './build.sh'
