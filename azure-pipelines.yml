@@ -14,6 +14,6 @@ steps:
 #    make
 #  displayName: './build.sh'
 - task: SSH@0
-    inputs:
-      runOptions: 'commands'
-      commands: './build.sh'
+  inputs:
+    runOptions: 'commands'
+    commands: './build.sh'
