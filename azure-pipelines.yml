@@ -10,9 +10,6 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-#- script: |
-#    make
-#  displayName: './build.sh'
 - task: CmdLine@2
   inputs:
     script: './build.sh'
