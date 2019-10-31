@@ -12,4 +12,4 @@ pool:
 steps:
 - task: CmdLine@2
   inputs:
-    script: './buil.sh'
+    script: './build.sh'
