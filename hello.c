@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-qww
+
 int main(void)
 {
   int a=12, b=8;
